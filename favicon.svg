@@ -1,0 +1,29 @@
+<svg width="1124" height="1124" viewBox="0 0 1124 1124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1124" height="1124" fill="white"/>
+<path d="M432 367L562 497H432V367Z" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<path d="M562 497L692 627H562V497Z" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<path d="M692 497L822 367V497H692Z" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<path d="M692 367L822 497V367H692Z" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<path d="M562 627L692 497V627H562Z" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<rect x="432" y="497" width="130" height="130" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<rect x="692" y="497" width="130" height="130" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<rect x="432" y="627" width="130" height="130" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<rect x="692" y="627" width="130" height="130" fill="#63BF03" style="mix-blend-mode:multiply"/>
+<path d="M42 757L172 627H42V757Z" fill="#46C3EE" style="mix-blend-mode:multiply"/>
+<rect x="42" y="497" width="130" height="130" fill="#46C3EE" style="mix-blend-mode:multiply"/>
+<rect x="42" y="367" width="130" height="130" fill="#46C3EE" style="mix-blend-mode:multiply"/>
+<rect x="42" y="627" width="130" height="130" fill="#46C3EE" style="mix-blend-mode:multiply"/>
+<rect width="130" height="130" transform="matrix(-1 0 0 1 302 627)" fill="#46C3EE" style="mix-blend-mode:multiply"/>
+<path d="M302 497V367H432L302 497Z" fill="#FEC311" style="mix-blend-mode:multiply"/>
+<path d="M432 627V757H562L432 627Z" fill="#FEC311" style="mix-blend-mode:multiply"/>
+<rect width="130" height="130" transform="matrix(-1 0 0 1 432 627)" fill="#FEC311" style="mix-blend-mode:multiply"/>
+<rect x="302" y="497" width="130" height="130" fill="#FEC311" style="mix-blend-mode:multiply"/>
+<path d="M952 367L822 497V367H952Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M1082 497H952L1082 367V497Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M1082 367H952L1082 497V367Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M952 497H1082V627L952 497Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M952 627L822 497V627H952Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M1082 627V757H952L1082 627Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M822 627H952L822 757V627Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+<path d="M822 627H692L822 757V627Z" fill="#FF1289" style="mix-blend-mode:multiply"/>
+</svg>
