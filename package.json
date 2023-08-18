@@ -1,0 +1,15 @@
+{
+    "name": "phe_portfolio",
+    "version": "0.1.0",
+    "description": "This is for testing my css/html projects",       
+    "main": "public/index.html",
+    "author": "Phelyppe Matheus",
+    "scripts": {
+        "build": "browser-sync start --server --files \"css/*.css\"",
+        "vercel-build": "browser-sync start --server --files \"css/*.css\"",
+        "share": "browser-sync start --proxy \"myproject.dev\" --files \"css/*.css\""
+    },
+    "dependencies": {
+        "browser-sync": "^2.27.9"
+    }
+}
