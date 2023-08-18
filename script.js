@@ -104,7 +104,7 @@ const generateEvent = () => {
     const eventDaysTemplate = document.getElementById("event-days").content;
     const eventsDetailsTemplate = document.getElementById("events-details").content;
 
-    const now = new Date("Fri Aug 24 2023 15:54:18 GMT-0300");
+    const now = new Date();
 
     const isDayDone = (eventDayClone, eventDay) => {
         const eventDate = new Date(y=2023, m=7, d=eventDay+1);
