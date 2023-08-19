@@ -2,12 +2,14 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
     --big-gap: 50px;
+    --side-gap: 10px;
     --small-gap: 10px;
-    margin: var(--big-gap) var(--small-gap);
+    margin: var(--big-gap) var(--side-gap);
     display: flex;
     flex-direction: column;
 
@@ -34,7 +36,7 @@ header h3 {
 .logo-lims img {
     aspect-ratio: 8/3;
     object-fit: cover;
-    height: clamp(1.5em, 5vw, 5em);
+    height: clamp(1em, 4vw, 5em);
 }
 
 .logo-theinfo {
@@ -43,7 +45,7 @@ header h3 {
 }
 
 .logo-theinfo img {
-    height: clamp(3em, 5vw, 5em);
+    height: clamp(2em, 4vw, 5em);
 }
 
 header {
@@ -117,10 +119,16 @@ header {
     color: #66C101;
 }
 
+.event-days .event-list .title-box {
+    display: grid;
+    align-content: center;
+    grid-column: 1/3;
+    inset: 0;
+
+    background-color: #057BCB;
+}
 
 .event-days .event-list h2 {
-    grid-column: 1/3;
-    background-color: #057BCB;
     padding: .4em 1em;
 
     font-size: 1em;
@@ -134,8 +142,10 @@ header {
 .event-days .event-list .details {
     display: grid;
     gap: 5px;
+
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
+    width: 100%;
 }
 
 .deactivate {
@@ -146,7 +156,11 @@ header {
     background-color: #ECA400;
 }
 
-@media (min-width: 925.00000001px ) {
+@media (min-width: 925.00000001px) {
+    body {
+        --side-gap: 50px;
+    }
+
     header {
         grid-template-columns: 8rem 1fr 8rem;
         grid-template-areas:
@@ -155,11 +169,28 @@ header {
     }
 
     .event-days .event-list {
+        --columns: 3;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(var(--columns), 1fr);
+        place-content: center;
+        place-items: center;
     }
 
     .event-days .event-list .details {
         aspect-ratio: 4/3;
+    }
+
+    .event-days .event-list .details h2 {
+        font-size: clamp(1em, 2vw, 2em);
+        text-align: center;
+    }
+}
+
+@media (min-width: 2200.00000001px) {
+    body {
+        --side-gap: 200px;
+    }
+    .event-days .event-list {
+        --columns: 4;
     }
 }
