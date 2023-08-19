@@ -13,7 +13,7 @@ const eventListByDay = {
         {
             "type": "palestra",
             "hour": "15h às 16h",
-            "title": "Da palestra à criação de uma start-up",
+            "title": "Da pesquisa à criação de uma start-up",
         },
         {
             "type": "mesa redonda",
@@ -88,12 +88,12 @@ const eventListByDay = {
     "26" : [
         {
             "type": "minicurso",
-            "hour": "17h às 20h",
+            "hour": "08h às 10h",
             "title": "Introdução à LGPD",
         },
         {
             "type": "palestra",
-            "hour": "17h às 20h",
+            "hour": "11h às 12h",
             "title": "Estratégias para performar na carreira TECH",
         }
     ],
